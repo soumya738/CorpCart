@@ -35,7 +35,7 @@
     "category": "Apparel",
     "productType": "Apparel",
     "price": 499,
-    "image": ["/images/Basketball-cap.jpg", "/images/Basketball-cap.jpg"],
+    "image": ["/images/Basketball-cap.jpg"],
     "description": "A lightweight cap designed for casual comfort and daily wear."
   },
   {
@@ -44,7 +44,7 @@
     "category": "Bags",
     "productType": "Bags",
     "price": 1299,
-    "image": ["/images/backpack.jpg", "/images/backpack.jpg"],
+    "image": ["/images/backpack.jpg"],
     "description": "A durable backpack with dedicated storage for work essentials."
   },
   {
@@ -53,7 +53,7 @@
     "category": "Bags",
     "productType": "Bags",
     "price": 699,
-    "image": ["/images/Laptop-sleeve.jpg", "/images/Laptop-sleeve.jpg"],
+    "image": ["/images/Laptop-sleeve.jpg"],
     "description": "A sleek sleeve that protects your laptop while commuting."
   },
   {
@@ -62,7 +62,7 @@
     "category": "Bags",
     "productType": "Bags",
     "price": 399,
-    "image": ["/images/Tote-bag.jpg", "/images/Tote-bag.jpg"],
+    "image": ["/images/Tote-bag.jpg"],
     "description": "A sturdy tote bag for daily essentials, errands, and office carry."
   },
   {
@@ -71,7 +71,7 @@
     "category": "Bags",
     "productType": "Bags",
     "price": 599,
-    "image": ["/images/Travel-Organizer.jpg", "/images/Travel-Organizer.jpg"],
+    "image": ["/images/Travel-Organizer.jpg"],
     "description": "A compact organizer that keeps travel essentials neatly arranged."
   },
   {
@@ -80,7 +80,7 @@
     "category": "Drinkware",
     "productType": "Drinkware",
     "price": 599,
-    "image": ["/images/XYZ-waterbottle.jpg", "/images/XYZ-waterbottle.jpg"],
+    "image": ["/images/XYZ-waterbottle.jpg"],
     "description": "A durable and elegant water bottle for everyday hydration."
   },
   {
@@ -89,10 +89,7 @@
     "category": "Drinkware",
     "productType": "Drinkware",
     "price": 799,
-    "image": [
-      "/images/insulated-travel-mug.jpg",
-      "/images/insulated-travel-mug.jpg"
-    ],
+    "image": ["/images/insulated-travel-mug.jpg"],
     "description": "A double-walled mug that keeps drinks hot or cold longer."
   },
   {
@@ -101,10 +98,7 @@
     "category": "Drinkware",
     "productType": "Drinkware",
     "price": 349,
-    "image": [
-      "/images/insulated-travel-mug.jpg",
-      "/images/insulated-travel-mug.jpg"
-    ],
+    "image": ["/images/XYZ-Coffee-mug.jpg"],
     "description": "A classic coffee mug for your daily office refreshment break."
   },
   {
@@ -113,10 +107,7 @@
     "category": "Drinkware",
     "productType": "Drinkware",
     "price": 899,
-    "image": [
-      "/images/Stainless-Steel-Tumbler.jpg",
-      "/images/Stainless-Steel-Tumbler.jpg"
-    ],
+    "image": ["/images/Stainless-Steel-Tumbler.jpg"],
     "description": "A premium stainless steel tumbler built for all-day hydration."
   },
   {
@@ -125,7 +116,7 @@
     "category": "Tech & Desk",
     "productType": "Tech & Desk",
     "price": 999,
-    "image": ["/images/Wireless-Charger.jpg", "/images/Wireless-Charger.jpg"],
+    "image": ["/images/Wireless-Charger.jpg"],
     "description": "A convenient wireless charging pad for fast, clutter-free power-ups."
   },
   {
@@ -143,7 +134,7 @@
     "category": "Tech & Desk",
     "productType": "Tech & Desk",
     "price": 499,
-    "image": ["/images/desk-organizer.jpg", "/images/desk-organizer.jpg"],
+    "image": ["/images/desk-organizer.jpg"],
     "description": "A tidy desktop organizer for pens, notes, and accessories."
   },
   {
@@ -152,7 +143,7 @@
     "category": "Tech & Desk",
     "productType": "Tech & Desk",
     "price": 299,
-    "image": ["/images/Mouse-pad.jpg", "/images/Mouse-pad.jpg"],
+    "image": ["/images/Mouse-pad.jpg"],
     "description": "A smooth, comfortable mouse pad built for long work hours."
   },
   {
@@ -161,47 +152,8 @@
     "category": "Stationery",
     "productType": "Stationery",
     "price": 299,
-    "image": [
-      "/images/XYZ-premium-notebook.jpg",
-      "/images/XYZ-premium-notebook.jpg"
-    ],
+    "image": ["/images/XYZ-premium-notebook.jpg"],
     "description": "A premium notebook for structured notes and elegant planning."
-  },
-  {
-    "id": 18,
-    "name": "Executive Diary",
-    "category": "Stationery",
-    "productType": "Stationery",
-    "price": 499,
-    "image": [
-      "/images/XYZ-premium-notebook.jpg",
-      "/images/XYZ-premium-notebook.jpg"
-    ],
-    "description": "A refined diary suited for meetings, notes, and daily planning."
-  },
-  {
-    "id": 19,
-    "name": "XYZ Planner",
-    "category": "Stationery",
-    "productType": "Stationery",
-    "price": 399,
-    "image": [
-      "/images/XYZ-premium-notebook.jpg",
-      "/images/XYZ-premium-notebook.jpg"
-    ],
-    "description": "A practical planner that helps keep schedules and priorities on track."
-  },
-  {
-    "id": 20,
-    "name": "Premium Pen Set",
-    "category": "Stationery",
-    "productType": "Stationery",
-    "price": 349,
-    "image": [
-      "/images/XYZ-premium-notebook.jpg",
-      "/images/XYZ-premium-notebook.jpg"
-    ],
-    "description": "A polished pen set for professional writing and gifting."
   },
   {
     "id": 21,
@@ -209,7 +161,7 @@
     "category": "Gifts",
     "productType": "Gifts",
     "price": 1499,
-    "image": ["/images/image_6f545cf0.jpg", "/images/image_6f545cf0.jpg"],
+    "image": ["/images/image_6f545cf0.jpg"],
     "description": "A curated welcome kit for new employees and office onboarding."
   },
   {
@@ -218,7 +170,7 @@
     "category": "Gifts",
     "productType": "Gifts",
     "price": 1999,
-    "image": ["/images/image_6f545cf0.jpg", "/images/image_6f545cf0.jpg"],
+    "image": ["/images/image_6f545cf0.jpg"],
     "description": "A premium corporate gift box designed for meaningful gifting."
   }
 ]

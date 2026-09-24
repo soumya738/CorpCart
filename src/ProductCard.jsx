@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useCart } from "./context/CartContext";
 import { useWishlist } from "./context/WishlistContext";
 
@@ -10,10 +10,16 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 export default function ProductCard({ product }) {
+  const navigate = useNavigate();
   const { addToCart } = useCart();
   const { wishlistItems, toggleWishlist } = useWishlist();
 
   const isWishlisted = wishlistItems.some((item) => item.id === product.id);
+
+  const handleAddToCart = () => {
+    addToCart(product, 1);
+    navigate("/cart");
+  };
 
   return (
     <div className="Product-card">
@@ -59,7 +65,7 @@ export default function ProductCard({ product }) {
           <button
             type="button"
             className="primary-button small-button"
-            onClick={() => addToCart(product, 1)}
+            onClick={handleAddToCart}
           >
             Add to Cart
           </button>

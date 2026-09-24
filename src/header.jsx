@@ -43,9 +43,8 @@ export default function Header() {
           <NavLink to="/" end>
             Home
           </NavLink>
-          <NavLink to="/products">Products</NavLink>
-          <NavLink to="/products" state={{ category: "Apparel" }}>
-            Categories
+          <NavLink to="/products" state={{ category: "All" }}>
+            Products
           </NavLink>
         </nav>
 

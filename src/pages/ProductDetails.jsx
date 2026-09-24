@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import ProductCard from "../ProductCard";
 import { useCart } from "../context/CartContext";
 import { useWishlist } from "../context/WishlistContext";
 
 export default function ProductDetails() {
   const { id } = useParams();
+  const navigate = useNavigate();
   const { addToCart } = useCart();
   const { wishlistItems, toggleWishlist } = useWishlist();
   const [product, setProduct] = useState(null);
@@ -58,6 +59,11 @@ export default function ProductDetails() {
   const isWishlisted = product
     ? wishlistItems.some((item) => item.id === product.id)
     : false;
+
+  const handleAddToCart = () => {
+    addToCart(product, quantity);
+    navigate("/cart");
+  };
 
   if (loading) {
     return <div className="loading-state">Loading product...</div>;
@@ -116,7 +122,7 @@ export default function ProductDetails() {
           <button
             type="button"
             className="primary-button"
-            onClick={() => addToCart(product, quantity)}
+            onClick={handleAddToCart}
           >
             Add to Cart
           </button>

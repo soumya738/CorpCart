@@ -68,7 +68,10 @@ export default function Home() {
   );
 
   const newArrivals = useMemo(
-    () => [...products].reverse().slice(0, 4),
+    () =>
+      products
+        .filter((product) => [4, 7, 9, 10].includes(product.id))
+        .slice(0, 4),
     [products],
   );
 
