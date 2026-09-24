@@ -45,6 +45,7 @@ export default function LoginPage() {
         </div>
         <form id="loginform" onSubmit={handleSubmit}>
           <label htmlFor="email">Email ID</label>
+          <br />
           <input
             id="email"
             name="email"
@@ -54,7 +55,10 @@ export default function LoginPage() {
             onChange={handleChange}
             required
           />
+          <br />
+          <br />
           <label htmlFor="password">Password</label>
+          <br />
           <input
             id="password"
             name="password"
@@ -64,6 +68,8 @@ export default function LoginPage() {
             onChange={handleChange}
             required
           />
+          <br />
+          <br />
           <button type="submit" className="primary-button block-button">
             Login
           </button>
