@@ -1,0 +1,224 @@
+[
+  {
+    "id": 1,
+    "name": "Classic XYZ T-Shirt",
+    "category": "Apparel",
+    "productType": "Apparel",
+    "price": 699,
+    "image": ["/images/t-shirt-front.png", "/images/t-shirt-back.png"],
+    "description": "A comfortable and stylish t-shirt for everyday wear."
+  },
+  {
+    "id": 2,
+    "name": "Premium Polo T-Shirt",
+    "category": "Apparel",
+    "productType": "Apparel",
+    "price": 999,
+    "image": ["/images/Polo-tshirt-front.jpg", "/images/Polo-tshirt-back.jpg"],
+    "description": "A premium polo t-shirt made from high-quality materials."
+  },
+  {
+    "id": 3,
+    "name": "XYZ Oversized T-Shirt",
+    "category": "Apparel",
+    "productType": "Apparel",
+    "price": 899,
+    "image": [
+      "/images/Oversized-t-shirt-front.jpg",
+      "/images/Oversized-t-shirt-back.jpg"
+    ],
+    "description": "A relaxed oversized fit designed for a laid-back, modern look."
+  },
+  {
+    "id": 4,
+    "name": "XYZ Baseball Cap",
+    "category": "Apparel",
+    "productType": "Apparel",
+    "price": 499,
+    "image": ["/images/Basketball-cap.jpg", "/images/Basketball-cap.jpg"],
+    "description": "A lightweight cap designed for casual comfort and daily wear."
+  },
+  {
+    "id": 5,
+    "name": "XYZ Laptop Backpack",
+    "category": "Bags",
+    "productType": "Bags",
+    "price": 1299,
+    "image": ["/images/backpack.jpg", "/images/backpack.jpg"],
+    "description": "A durable backpack with dedicated storage for work essentials."
+  },
+  {
+    "id": 6,
+    "name": "Corporate Laptop Sleeve",
+    "category": "Bags",
+    "productType": "Bags",
+    "price": 699,
+    "image": ["/images/Laptop-sleeve.jpg", "/images/Laptop-sleeve.jpg"],
+    "description": "A sleek sleeve that protects your laptop while commuting."
+  },
+  {
+    "id": 7,
+    "name": "XYZ Canvas Tote Bag",
+    "category": "Bags",
+    "productType": "Bags",
+    "price": 399,
+    "image": ["/images/Tote-bag.jpg", "/images/Tote-bag.jpg"],
+    "description": "A sturdy tote bag for daily essentials, errands, and office carry."
+  },
+  {
+    "id": 8,
+    "name": "Travel Organizer",
+    "category": "Bags",
+    "productType": "Bags",
+    "price": 599,
+    "image": ["/images/Travel-Organizer.jpg", "/images/Travel-Organizer.jpg"],
+    "description": "A compact organizer that keeps travel essentials neatly arranged."
+  },
+  {
+    "id": 9,
+    "name": "XYZ Water Bottle",
+    "category": "Drinkware",
+    "productType": "Drinkware",
+    "price": 599,
+    "image": ["/images/XYZ-waterbottle.jpg", "/images/XYZ-waterbottle.jpg"],
+    "description": "A durable and elegant water bottle for everyday hydration."
+  },
+  {
+    "id": 10,
+    "name": "Insulated Travel Mug",
+    "category": "Drinkware",
+    "productType": "Drinkware",
+    "price": 799,
+    "image": [
+      "/images/insulated-travel-mug.jpg",
+      "/images/insulated-travel-mug.jpg"
+    ],
+    "description": "A double-walled mug that keeps drinks hot or cold longer."
+  },
+  {
+    "id": 11,
+    "name": "XYZ Coffee Mug",
+    "category": "Drinkware",
+    "productType": "Drinkware",
+    "price": 349,
+    "image": [
+      "/images/insulated-travel-mug.jpg",
+      "/images/insulated-travel-mug.jpg"
+    ],
+    "description": "A classic coffee mug for your daily office refreshment break."
+  },
+  {
+    "id": 12,
+    "name": "Stainless Steel Tumbler",
+    "category": "Drinkware",
+    "productType": "Drinkware",
+    "price": 899,
+    "image": [
+      "/images/Stainless-Steel-Tumbler.jpg",
+      "/images/Stainless-Steel-Tumbler.jpg"
+    ],
+    "description": "A premium stainless steel tumbler built for all-day hydration."
+  },
+  {
+    "id": 13,
+    "name": "XYZ Wireless Charger",
+    "category": "Tech & Desk",
+    "productType": "Tech & Desk",
+    "price": 999,
+    "image": ["/images/Wireless-Charger.jpg", "/images/Wireless-Charger.jpg"],
+    "description": "A convenient wireless charging pad for fast, clutter-free power-ups."
+  },
+  {
+    "id": 14,
+    "name": "Laptop Stand",
+    "category": "Tech & Desk",
+    "productType": "Tech & Desk",
+    "price": 1199,
+    "image": ["/images/Laptop-stand1.jpg", "/images/Laptop-stand2.jpg"],
+    "description": "An adjustable laptop stand that improves posture and workspace comfort."
+  },
+  {
+    "id": 15,
+    "name": "XYZ Desk Organizer",
+    "category": "Tech & Desk",
+    "productType": "Tech & Desk",
+    "price": 499,
+    "image": ["/images/desk-organizer.jpg", "/images/desk-organizer.jpg"],
+    "description": "A tidy desktop organizer for pens, notes, and accessories."
+  },
+  {
+    "id": 16,
+    "name": "Ergonomic Mouse Pad",
+    "category": "Tech & Desk",
+    "productType": "Tech & Desk",
+    "price": 299,
+    "image": ["/images/Mouse-pad.jpg", "/images/Mouse-pad.jpg"],
+    "description": "A smooth, comfortable mouse pad built for long work hours."
+  },
+  {
+    "id": 17,
+    "name": "XYZ Premium Notebook",
+    "category": "Stationery",
+    "productType": "Stationery",
+    "price": 299,
+    "image": [
+      "/images/XYZ-premium-notebook.jpg",
+      "/images/XYZ-premium-notebook.jpg"
+    ],
+    "description": "A premium notebook for structured notes and elegant planning."
+  },
+  {
+    "id": 18,
+    "name": "Executive Diary",
+    "category": "Stationery",
+    "productType": "Stationery",
+    "price": 499,
+    "image": [
+      "/images/XYZ-premium-notebook.jpg",
+      "/images/XYZ-premium-notebook.jpg"
+    ],
+    "description": "A refined diary suited for meetings, notes, and daily planning."
+  },
+  {
+    "id": 19,
+    "name": "XYZ Planner",
+    "category": "Stationery",
+    "productType": "Stationery",
+    "price": 399,
+    "image": [
+      "/images/XYZ-premium-notebook.jpg",
+      "/images/XYZ-premium-notebook.jpg"
+    ],
+    "description": "A practical planner that helps keep schedules and priorities on track."
+  },
+  {
+    "id": 20,
+    "name": "Premium Pen Set",
+    "category": "Stationery",
+    "productType": "Stationery",
+    "price": 349,
+    "image": [
+      "/images/XYZ-premium-notebook.jpg",
+      "/images/XYZ-premium-notebook.jpg"
+    ],
+    "description": "A polished pen set for professional writing and gifting."
+  },
+  {
+    "id": 21,
+    "name": "New Joiner Welcome Kit",
+    "category": "Gifts",
+    "productType": "Gifts",
+    "price": 1499,
+    "image": ["/images/image_6f545cf0.jpg", "/images/image_6f545cf0.jpg"],
+    "description": "A curated welcome kit for new employees and office onboarding."
+  },
+  {
+    "id": 22,
+    "name": "XYZ Corporate Gift Box",
+    "category": "Gifts",
+    "productType": "Gifts",
+    "price": 1999,
+    "image": ["/images/image_6f545cf0.jpg", "/images/image_6f545cf0.jpg"],
+    "description": "A premium corporate gift box designed for meaningful gifting."
+  }
+]

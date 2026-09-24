@@ -4,12 +4,13 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import LoginPage from "./login.jsx";
 import "./App.css";
+import Products from "./products.jsx";
 
 function App() {
-  
   return (
     <>
-    <LoginPage />
+      {/* <LoginPage /> */}
+      <Products />
     </>
   );
 }
